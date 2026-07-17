@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* trasform --> rotate(), scaleX(), scaleY(), scale(),skew(), matrix(6),traslate() */
+
+      div{
+        width: 200px;
+        height: 150px;
+        background-color: yellow;
+        /* border: 2px solid red; */
+        /* transform: translate(100px,50px);
+        transform: rotate(-25deg); */
+
+        /* transform: scale(2,3); */
+        /* transform: scaleX(2); */
+        /* transform: scaleY(3); */
+
+        /* transform: skew(20deg); */
+        /* transform: skewY(20deg); */
+
+        /* transform: matrix(scaleX(),SkewY,skewX(),scaleY(),traslateX(),traslateY()); */
+        /* transform: matrix(1,0,0.5,1,100,0); */
+
+        /* transition -- trasition-property, duration, timing-function --(ease ,ease-in,ease-out, linear,ease-in-out), delay */
+        transition: width 5s, height 5s, background-color 5s, transform 7s;
+        /* transition-timing-function: ease-in-out; */
+        /* transition-delay: 2s; */
+
+
+
+
+      }
+
+      div:hover{
+        width: 300px;
+        height: 300px;
+        background-image: linear-gradient(red,yellow);
+        transform: rotate(180deg);
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Traforms Properties in CSS</h2>
+
+    <div>
+      
+    </div>
+  </body>
+</html>

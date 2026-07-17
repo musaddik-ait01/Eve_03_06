@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* has-attribute - [attr-name] */
+        [type]{
+            width: 93%;
+        }
+
+        /* attr value equals - [attr-name = 'attr-value'] */
+
+        [type='submit']{
+            width: 98.5%;
+        }
+
+        /* attr value start with - [attr-name ^='attr-value'] */
+        [placeholder^='E']{
+            padding: 8px;
+            border-radius: 15px;
+            margin: 3px;
+            /* border: none; */
+        }
+
+        /* attr value ends with - [attr-name $='attr-value'] */
+        [value$='n']{
+            padding: 7px;
+            font-size: 18px;
+            border: none;
+            border-radius: 18px;
+            background-color: green;
+            color: white;
+            margin-top: 30px;
+        }
+        [value$='n']:hover{
+            cursor: pointer;
+            background-color: rgb(228, 145, 36);
+            color: black;
+        }
+
+        /* attr value contains - [sttr-name*='attr-value'] */
+        [class*='F']{
+            border: 2px solid gray;
+            border-radius: 30px;
+            width: 400px;
+            position: relative;
+            top: 150px;
+            left: 400px;
+            padding: 20px;
+        }
+
+        form h2{
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- form  -->
+
+    <form class="logForm">
+
+        <h2>Login</h2>
+
+        <input type="text" placeholder="Enter Your Name">
+        <input type="password" placeholder="Enter Your password">
+
+        <input type="submit" value="Login">
+
+    </form>
+</body>
+</html>

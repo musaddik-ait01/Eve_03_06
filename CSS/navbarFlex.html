@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: #333;
+            color: white;
+            height: 70px;
+            background-image: url('../src/nature.avif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* background-position:; */
+            
+        }
+
+        .links{
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .links a{
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        .links a:hover{
+            color: #ffdd57;
+        }
+
+        .logo{
+            font-size: larger;
+            font-weight: bolder;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="logo">LOGO</div>
+        <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>

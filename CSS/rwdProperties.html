@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* web page should be good for all devices ---> mobile,laptop,tab,tv...etc */
+      /* view port */
+      /* media Queries */
+      /* @media */
+        /* div{
+            width: 100%;
+            height: 200px;
+            border: 2px solid rgb(6, 5, 5);
+            background: red;
+        }
+
+        @media (min-width:320px) and (max-width:425px) {
+           div{
+            background: green;
+           }
+        } */
+
+        /* @media (max-width:768px) {
+            div{
+                background: blue;
+            }
+        } */
+
+        /* Example */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background: #f4f4f4;
+            padding: 30px;
+        }
+
+        h1{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .container{
+            display: flex;
+            gap: 22px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card{
+            background: white;
+            width: 23%;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 10px rgba(0,0, 0, .2);
+            transition: .3s;
+        }
+
+        .card:hover{
+            transform: translateY(-5px);
+        }
+
+        .card img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card h2{
+            padding: 15px 15px 5px;
+        }
+
+        .card p{
+            padding: 0 15px;
+            color: gray;
+        }
+
+        .card button{
+            margin: 15px;
+            padding: 10px 20px;
+            border: none;
+            background: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+
+        .card button:hover{
+            background: #0056b3;
+        }
+
+        /* tablet */
+
+        @media (max-width:1023px) {
+            .card{
+                width: 48%;
+            }
+        }
+
+        /* mobile */
+
+        @media (max-width:767px){
+
+            body{
+                padding: 15px;
+            }
+
+            .card{
+                width: 100%;
+            }
+
+            h1{
+                font-size: 29px;
+            }
+
+        }
+    </style>
+  </head>
+  <body>
+
+    <h1>Products List</h1>
+    <div class="container">
+
+        <div class="card">
+            <img src="../src/nature.avif" alt="" srcset="">
+            <h2>Laptop</h2>
+            <p>Powerful laptop for study</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="card">
+            <img src="../src/nature.avif" alt="" srcset="">
+            <h2>Laptop</h2>
+            <p>Powerful laptop for study</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="card">
+            <img src="../src/nature.avif" alt="" srcset="">
+            <h2>Laptop</h2>
+            <p>Powerful laptop for study</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="card">
+            <img src="../src/nature.avif" alt="" srcset="">
+            <h2>Laptop</h2>
+            <p>Powerful laptop for study</p>
+            <button>Buy Now</button>
+        </div>
+        
+
+    </div>
+
+
+    <!-- <div></div>     -->
+    <!-- <img src="../src/nature.avif" alt="" srcset="" />
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+      adipisci ipsum id accusamus alias earum, quis neque dolore maxime mollitia
+      ut unde, laborum culpa, fuga expedita rem. Blanditiis ipsam eum odit
+      labore aliquam animi cum corrupti, eos accusantium laboriosam inventore
+      fugit modi vero dolore soluta voluptates commodi doloribus nesciunt culpa
+      id. Nam fuga blanditiis obcaecati natus tempore dolore? Soluta deleniti
+      eligendi, eveniet dolorem facere fuga repellat aut atque exercitationem
+      voluptatem tempora recusandae facilis, dolore magni laboriosam nemo iure
+      harum culpa! Magni esse quidem officiis illum, explicabo nemo placeat
+      corporis facere blanditiis laudantium rem! Voluptates praesentium
+      repellendus nostrum quasi sed impedit iure accusamus tempora
+      necessitatibus eum, obcaecati placeat, dolores consequatur deleniti
+      dolorum adipisci nobis. Dolore impedit ab magnam eligendi quam
+      exercitationem veritatis numquam praesentium, accusantium quia quo
+      commodi, eaque eius nam pariatur reiciendis sapiente earum odit enim
+      libero labore et ea? Maiores quae quod exercitationem. Iure neque impedit
+      sequi dignissimos est? Necessitatibus eum nemo cumque labore eaque nihil
+      non placeat esse. Voluptates adipisci aperiam dolores atque accusantium
+      rerum dicta, unde, sequi dolorem nisi commodi suscipit laborum quod!
+      Tempora corrupti dolor ea atque illum. Eveniet deleniti ratione suscipit
+      veniam, perspiciatis beatae quia magni animi, obcaecati fuga eligendi
+      distinctio corrupti nam soluta quisquam. Sed quibusdam quae eligendi eius
+      harum quidem, architecto cupiditate doloribus earum, enim minus, fugit
+      alias eos consequatur deserunt tenetur odio quas cumque expedita? Atque
+      illum explicabo nihil ipsum ex enim deleniti pariatur harum temporibus,
+      porro itaque ad delectus hic asperiores labore eum. Temporibus ea iusto
+      autem quaerat assumenda soluta facere aliquam quos hic commodi natus
+      dolores deleniti officiis explicabo sunt nisi architecto, facilis alias
+      eveniet est laboriosam quas nemo atque consequatur. Temporibus, facere.
+      Enim neque sequi vel ex beatae voluptatem debitis! Dicta iure praesentium
+      adipisci error, exercitationem debitis reprehenderit autem architecto
+      dolorum sit molestiae repellendus quidem facere ducimus neque similique
+      itaque vero. Modi soluta deserunt architecto quis facere id consequatur
+      atque reiciendis eius magnam placeat, sit amet laboriosam ipsum porro
+      quibusdam illo temporibus enim accusamus. Exercitationem numquam quod
+      incidunt nemo iste consectetur autem, officiis ipsa perferendis pariatur
+      hic quia odio possimus quidem ipsam aliquam obcaecati! Maxime blanditiis
+      aspernatur laboriosam molestias quaerat consectetur cumque provident
+      eligendi ad! Officiis, voluptatibus quas obcaecati error asperiores unde
+      blanditiis repellendus! Error, recusandae. Vel voluptate quod laudantium
+      reprehenderit pariatur, reiciendis cumque, aliquam iusto earum repudiandae
+      eligendi ipsam culpa ut rem qui? Eligendi, id. Voluptatum perferendis vel
+      ratione labore dolor aperiam beatae, sint fugit doloremque explicabo hic!
+    </p> -->
+  </body>
+</html>

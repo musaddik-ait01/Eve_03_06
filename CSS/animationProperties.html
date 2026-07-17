@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* animation - name, duration, timing-function, delay, iteration-count, direction...etc */
+        div{
+            /* width: 100px;
+            height: 100px;
+            background: red;
+            position: relative; */
+            /* animation: move 5s infinite; */
+            /* animation-name: move; */
+            /* animation-delay: 3s; */
+            /* normal, rev erse, alternate, alternate-reverse */
+            /* animation-direction: alternate-reverse; */
+            /* animation-duration:3s ; */
+            /* animation: move 5s 4; */
+            /* animation-direction: alternate-reverse; */
+        }
+        /* @keyframes move{
+            from{left: 0px;}
+            to{left: 300px;}
+        } */
+
+        /* @keyframes move{
+            0%{
+                background: red;
+                left: 0px;
+                top: 0px;
+            }
+
+            25%{
+                background: yellow;
+                left: 220px;
+                top: 0px;
+            }
+
+            50%{
+                background: blue;
+                left: 220px;
+                top: 250px;
+            }
+
+            75%{
+                background: orange;
+                left: 0px;
+                top: 250px;
+            }
+
+            100%{
+                background: red;
+                top: 0px;
+                left: 0px;
+            }
+        } */
+
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f4f4f4;
+        }
+
+        .loader{
+            width: 80px;
+            height: 80px;
+            /* background-color: red; */
+            /* border: 8px solid #dcdcdc; */
+            border-top: 8px solid #177bcc;
+            border-radius: 50%;
+            animation: rotate 1s linear infinite;
+        }
+
+        @keyframes rotate{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+
+        .small{
+            width: 40px;
+            height: 40px;
+            /* background-color: red; */
+            /* border: 5px solid #dcdcdc; */
+            border-top: 5px solid #df5e08;
+            border-radius: 50%;
+            animation: rotate 1s linear infinite;
+        }
+
+        @keyframes rotate{
+            from{
+                transform: rotate(360deg);
+            }
+            to{
+                transform: rotate(0deg);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <marquee behavior="scroll" direction="right"><h1>This is animation without css animation</h1></marquee> -->
+    
+    <!-- <h1>CSS Animation Properties</h1> -->
+
+    <div class="loader">
+        <div class="small"></div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+Git :- Version control system , Git is tool to record every changes in code/file
+
+    1. Distributed VCS - remotly server for each and everyone
+    2. Centralize VCS - you should connect with one server 
+
+ex:
+
+    Project.doc
+    Upadated_Project.doc
+    New_update_project.doc
+    finall_project.doc .........etc
+
+    v1
+    v2
+    v3
+    ......etc
+
+Github :-
+
